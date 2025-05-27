@@ -1,12 +1,6 @@
-def factor_3or5(n):
-    if n%3==0 or n%5==0:
+def is_even(n):
+    if n%2==0:
         return True
     else:
         return False
-sum=0
-for i in range(1, 10):
-    if (factor_3or5(i)):
-        print(f'checking {i}')
-        sum+=i
-        print(sum)
-print(sum)
+print(is_even(1002))
