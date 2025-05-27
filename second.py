@@ -6,7 +6,7 @@ def is_even(n):
 first=1
 second=2
 sum=0
-while (first<40):
+while (first<4000000):
     if is_even(first):
         sum+=first
     new=first+second
